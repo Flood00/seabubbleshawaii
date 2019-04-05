@@ -37,6 +37,24 @@ header .overlay {
     opacity: 0.5;
     z-index: 1;
 }
+
+.marginTop25 {
+    margin-top: 25px;
+}
+
+.marginTop80 {
+    margin-top: 80px;
+}
+
+.marginTop190 {
+    margin-top: 190px;
+}
+
+.navBar {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
   
 @media (pointer: coarse) and (hover: none) {
     header {
