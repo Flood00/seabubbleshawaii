@@ -1,7 +1,9 @@
+/*hero video css*/
+
 header {
     position: relative;
     background-color: black;
-    height: 75vh;
+    height: 100%;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
@@ -25,6 +27,7 @@ header video {
 header .container {
     position: relative;
     z-index: 2;
+    margin-bottom: 100px;
 }
 
 header .overlay {
@@ -36,6 +39,29 @@ header .overlay {
     background-color: black;
     opacity: 0.5;
     z-index: 1;
+}
+
+/*hero video css*/
+
+/*homepage content css*/
+
+.jumbotron{
+    background-image: url("beach.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 800px;
+    color: white;
+    padding-top: 100px;
+}
+
+.jumbotron p {
+    font-size: 28px;
+}
+
+/*homepage content css*/
+
+.marginbot0 {
+    margin-bottom: 0;
 }
 
 .marginTop25 {
@@ -62,14 +88,4 @@ header .overlay {
 }
 .CandT{
   text-align: center;
-}
-
-@media (pointer: coarse) and (hover: none) {
-    header {
-      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
-    }
-
-    header video {
-      display: none;
-    }
 }
