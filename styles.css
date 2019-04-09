@@ -82,10 +82,17 @@ header .overlay {
     font-size: 20px;
 }
 
+.CandT{
+  text-align: center;
+}
+
+/*classes page css*/
 .turtleresize{
   height: 800px;
   width: 1950px;
 }
-.CandT{
-  text-align: center;
+.logoposition{
+  position: absolute;
+  left: 50px;
+  top: -11px;
 }
