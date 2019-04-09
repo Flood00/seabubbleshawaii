@@ -1,3 +1,11 @@
+h1, h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+h3, h4, h5, h6, p, a {
+    font-family: 'Handlee', cursive;
+}
+
 /*hero video css*/
 
 header {
@@ -56,9 +64,29 @@ header .overlay {
 
 .jumbotron p {
     font-size: 28px;
+    padding-top: 50px;
 }
 
 /*homepage content css*/
+
+
+/*Footer css*/
+
+footer .jumbotron {
+    min-height: 300px;
+    color: black;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+}
+
+footer .jumbotron p {
+    position: relative;
+    bottom: -50px;
+}
+
+/*Footer css*/
 
 .marginbot0 {
     margin-bottom: 0;
