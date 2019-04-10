@@ -77,20 +77,19 @@ footer .jumbotron {
     color: black;
     margin-bottom: 0;
     text-align: center;
-    padding: 50px 50px 0px 50px;
+    padding: 50px;
     background-color: white;
 }
 
 footer .jumbotron p {
     position: relative;
     bottom: -50px;
-    padding-top: 0;
 }
 
 /*Footer css*/
 
 .marginbot0 {
-    margin-bottom: 0;
+    margin-bottom: 0px !important;
 }
 
 .marginTop25 {
@@ -124,4 +123,13 @@ footer .jumbotron p {
   position: absolute;
   left: 50px;
   top: -11px;
+}
+.noborder{
+  border: none;
+}
+.carouselsize{
+  background-repeat: no-repeat;
+  height: 600px !important;
+  width: auto;
+  object-fit: contain;
 }

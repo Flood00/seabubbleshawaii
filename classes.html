@@ -8,6 +8,8 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
         <title>Sea Bubbles Hawaii</title>
     </head>
     <body>
@@ -32,7 +34,7 @@
           </li>
       </ul>
       <header>
-        <div class="overlay">
+        <div class="overlay marginbot0">
           <img class="turtleresize" src="turtles.jpg" alt="Hawaiian Turtles">
         </div w-100 text-white>
         <div class="d-flex h-100 text-center marginTop80">
@@ -41,7 +43,8 @@
           </div>
         </div>
       </header>
-      <div class="card mb-3" style="max-width: auto; height: auto;">
+
+      <div class="card mb-3 marginbot0 noborder" style="max-width: auto; height: auto;">
         <div class="row no-gutters">
           <div class="col-md-4">
             <img src="beach.jpg" class="card-img" alt="HawaiianBeaches">
@@ -55,6 +58,61 @@
           </div>
         </div>
       </div>
+
+      <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+
+            <!-- Item 1 -->
+            <div class="carousel-item active">
+              <div class="carouselsize">
+                <img src="sbhLogo.png" class="d-block w-100" alt="seabubbleshawaiilogo">
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="carousel-item">
+              <div class="carouselsize">
+                <img src="beach.jpg" class="d-block w-100" alt="beachesinhawaii">
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="carousel-item">
+              <div class="carouselsize">
+                <img src="turtles.jpg" class="d-block w-100" alt="turtles">
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              </div>
+            </div>
+
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
       <footer>
           <div class="jumbotron jumbotron-fluid" style="background-image: none;">
               <div class="container">
