@@ -42,27 +42,50 @@
                         <img src="sbhLogo.png" alt="seabubbleslogo">
 
                         <h3 class="marginTop190">Personalized Lessons and Tours</h3>
-                        <button type="button" class="btn btn-primary marginTop25">Learn More</button>
+                        <button type="button" class="btn btn-primary marginTop25" data-toggle="modal" data-target="#contactModal">Learn More</button>
                     </div>
                 </div>
             </div>
         </header>
+      
+        <!-- Modal -->
+        <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">Let's get in touch</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Phone: 555.555.5555</p>
+                        <p>E-Mail: seabubbleshawaii@something.com</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
 
         <div class="jumbotron jumbotron-fluid text-center marginbot0">
-            <div class="container">
+            <div class="container info">
                 <h1 class="display-4">Dive the beautiful beaches</h1>
                 <p class="lead">Take a personal dive in the beautiful beaches of Hawaii where you'll experience crystal clear waters</p>
             </div>
         </div>
         <div class="jumbotron jumbotron-fluid text-center marginbot0" style="background-image: url(turtles.jpg)";>
-            <div class="container">
+            <div class="container info">
                 <h1 class="display-4">Experience the wildlife underwater</h1>
                 <p class="lead">There's many breathtaking creatures you'll see under the ocean</p>
             </div>
         </div>
 
         <footer>
-            <div class="jumbotron jumbotron-fluid" style="background-image: none;">
+            <div class="jumbotron jumbotron-fluid">
                 <div class="container">
                     <div class="imgContainer">
                         <h1 class="display-4">Sea Bubbles Hawaii</h1>
@@ -79,7 +102,7 @@
                             <a class="nav-link" href="#">Certified Dives</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="#" data-toggle="modal" data-target="#contactModal">Contact Us</a>
                         </li>                              
                     </ul>
                     <p style="font-size: 15px;">&copy; 2019 Ben and Keegan Web Design I Don't Know </p>
@@ -92,5 +115,7 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="scripts/scripts.js"></script>
     </body>
 </html>
