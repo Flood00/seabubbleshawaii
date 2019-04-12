@@ -129,7 +129,21 @@ footer .jumbotron p {
 }
 .carouselsize{
   background-repeat: no-repeat;
-  height: 600px !important;
-  width: auto;
-  object-fit: contain;
+  height: 100% !important;
+
+}
+
+.buttonposition{
+  position: absolute;
+
+}
+
+.cardposition{
+  position: relative;
+}
+
+.picturesize{
+  height: 480px;
+  width: 100%;
+  padding: 0 300px 0 250px;
 }
