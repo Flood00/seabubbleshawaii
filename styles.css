@@ -127,11 +127,11 @@ footer a:hover {
 }
 
 /*classes page css*/
-.turtleresize{
+.instructorsize{
   height: 600px;
   width: 550px;
   position: absolute;
-  left: 670px;
+  left: 350px;
 }
 .logoposition{
   position: absolute;
@@ -170,8 +170,26 @@ h5{
   font-size: 3em !important;
 }
 .backgroundcolor{
-  background-color: white !important;
+  background-color: initial !important;
 }
-.cardsizing{
-  padding: 0px 300px 0px 250px;
+.classpadding{
+  margin: 0px 300px 0px 250px;
+}
+.classbackground{
+  background-image: url(images/Bubbles.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.classesoverlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  margin-left: 300px;
+  margin-right: 250px
+}
+.textorder{
+  z-index: 2;
+  position: absolute;
+  top: 10px;
 }
