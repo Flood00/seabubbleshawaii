@@ -131,12 +131,12 @@ footer a:hover {
   height: 600px;
   width: 550px;
   position: absolute;
-  left: 350px;
+  left: -50px;
 }
 .logoposition{
   position: absolute;
-  left: 40px;
-  top: -11px;
+  right: 500px;
+  top: -10px;
 }
 .noborder{
   border: none;
@@ -163,7 +163,7 @@ footer a:hover {
 }
 
 div .card-text{
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 h5{
@@ -177,8 +177,11 @@ h5{
 }
 .classbackground{
   background-image: url(images/Bubbles.jpg);
-  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
+  background-size: cover;
+
 }
 .classesoverlay{
   position: absolute;
@@ -191,5 +194,16 @@ h5{
 .textorder{
   z-index: 2;
   position: absolute;
-  top: 10px;
+  top: 0px;
+  right: 400px;
+  color: white;
+}
+
+.coloryellow a:link{
+  color: yellow;
+}
+@media screen and (max-width:1500px) {
+  .logoposition{
+    display: none;
+  }
 }
